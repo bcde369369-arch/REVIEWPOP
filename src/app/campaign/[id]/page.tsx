@@ -1,5 +1,7 @@
 "use client";
 
+export const runtime = 'edge';
+
 import { useParams, useRouter } from 'next/navigation';
 import { useStore, mockCampaigns } from '@/store/useStore';
 import { useState, useEffect } from 'react';
